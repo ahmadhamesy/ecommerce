@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا</title>
+    <script type="text/html" src="{require('index.js')}"></script>
+</head>
+<body>
+    <div class="contaner-fluid">
+        <div class="row">
+            <nav class="navbar custom-navbar navbar-expand-lg" >
+                <div class="container">
+                 <div class="navbar-header">
+                     <button class="navbar-toggler btn btn-icon collapsed" data-toggle="collapse" data-target="#navbar-collapsed-menu">
+                       <i class="fas fa-bars"></i>
+                     </button>
+                     <a href="checkout.html"  class="navbar-toggler btn btn-icon">
+                     <i class="fas fa-shopping-cart"></i>
+                     </a>
+                     <a href="." class="navbar-brand">
+                     <img src="./images/logo.png" alt="متجر عربي">
+                     </a>
+                 </div>
+                 <form class="form-inline">
+                     <input type="search " class="form-control custom-form-control" placeholder="ابحث">
+                     <div class="dropdown categories">
+                         <a href="#" class="nav-link dropdown-toggle custom-btn" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                           اختر فئه
+                           </a> 
+                           <ul class="dropdown-menu custom-dropdown-menu">
+                                 <li>
+                                     <div class="checkbox">
+                                         <label>
+                                             <input  type="checkbox" value="men" name="search-category">
+                                             رجالي
+                                         </label>
+                                     </div>
+                                 </li>
+                                 <li>
+                                   <div class="checkbox">
+                                       <label>
+                                           <input  type="checkbox" value="women" name="search-category">
+                                           نسائي
+                                       </label>
+                                   </div>
+                               </li>
+                               <li>
+                                   <div class="checkbox">
+                                       <label>
+                                           <input  type="checkbox" value="kids" name="search-category">
+                                           اظفال
+                                       </label>
+                                   </div>
+                               </li>
+                             </ul>
+                     </div>
+                     <button class="btn search-btn" type="submit">
+                         ابحث
+                     </button>
+                 </form>
+                 <div class="collapse navbar-collapse" id="navbar-collapsed-menu">
+                 <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                         <a href="#" class="nav-link">الصفحه الرئيسيه</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a href="" class="nav-link dropdown-toggle" id="navbardropdown"
+                        role="button" data-toggle="dropdown" aria-expanded="false"> اقسام المتجر</a>
+                       <ul class="dropdown-menu custom-dropdown-menu">
+                           <li>
+                               <a href="#" class="dropdown-item"> رجالي</a>
+                           </li>
+                           <li >
+                              <a href="#" class="dropdown-item">نسائي</a>
+                           </li>
+                           <li>
+                               <a href="#" class="dropdown-item">اظفال</a>
+                           </li>
+                       </ul>
+                   </li>
+                   <li class="nav-item">
+                       <a href=" search.html" class="nav-link">البحث المتقدم</a>
+                   </li>
+                   <li class="nav-item active">
+                       <a href="contact.html" class="nav-link">تواصل معنا</a>
+                   </li>
+                   <li class="d-none d-lg-block">
+                       <a href="checkout.html" id="btn-shoppingcart" class="btn custom-btn btn-icon "
+                       title="عربة الشراء" data-toggle="tooltip" data-placement="bottom">
+                       <i class="fas fa-shopping-cart"></i>
+                       </a>
+                   </li>
+                 </ul>
+                 </div>
+                 </div>
+             </nav>
+         </div>
+         <div class="row">
+             <div id="map" class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52992.22939339322!2d35.46926267517015!3d33.88928459727547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f16e3d926cd8d%3A0x216ded89ab87df54!2sDowntown%20Beirut!5e0!3m2!1sen!2slb!4v1619577213245!5m2!1sen!2slb" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             </div>
+         </div>
+         <div class="container">
+             <div class="row">
+                 <ol class="breadcrumb custom-breadcrumb">
+                     <li >
+                         <a href=".">الصفخة الرئيسيه</a>
+                     </li>
+                     <li class="active">تواصل معنا</li>
+                 </ol>
+             </div>
+             <div class="row" id="contact-options">
+                 <div class="col-lg-3 col-12 offset-2">
+                     <h4 class="heading-with-border-bottom">
+                         معلومات التواصل
+                     </h4>
+                     <div id="contact-info">
+                         <div>
+                         <i class="fas fa-phone fa-lg"></i>
+                         +961 70 651 251
+                         </div>
+                         <div>
+                            <i class="fas fa-envelope fa-lg"></i>
+                            info@gmail.com
+                            </div>
+                            <div>
+                                <i class="fas fa-map-marker-alt fa-lg"></i>
+                                العنوان:لبنان العاصمه بيروت وصط البلد
+                                </div>
+                     </div>
+                 
+                 <h4 class="heading-with-border-bottom">
+                     الاشتراك بالنشره البريديه
+                 </h4>
+                 <form id="form-subscription">
+                     <div class="form-group">
+                         <div class="input-group">
+                             <input type="email" class="form-control custom-form-control"
+                             placeholder="البريد الالكتروني" name="email" required>
+                             <button class="btn btn-primary" type="submit">
+                                 متابعة
+                             </button>
+                         </div>
+                     </div>
+                 </form>
+             </div>
+                 <div class="col-lg-6 col-12">
+                     <h4 >
+                         اترك رسالة
+                     </h4>
+                     <form class="row">
+                         <div class="col-6 form-group">
+                             <input type="text" class="form-control custom-form-control custom-input-details"
+                             name="name" placeholder="الاسم" required>
+                         </div>
+                         <div class="col-6 form-group">
+                            <input type="email" class="form-control custom-form-control custom-input-details"
+                            name="email" placeholder="البريد الالكتروني" required>
+                         </div>
+                         <div class="col-12 form-group">
+                             <textarea class="form-control custom-input-details custom-form-control"
+                             name="massege" placeholder="نص الرسالة" required></textarea>
+                         </div>
+                         <div class="col-12 form-group">
+                         <div class="clearfix">
+                             <button class="float-left btn btn-primary custom-btn-with-icon"
+                             type="submit">
+                             <span>
+                            ارسال الرسالة
+                            <i class="far fa-paper-plane"></i>
+                            </span>
+                            </button>
+                        </div>
+                         </div>
+                     </form>
+                 </div>
+             </div>
+         </div>
+          <!--تذييل الصفحه-->
+      <div id="footer" class="footer">
+        <div class="col-12 text-center" id="brand-logos">
+            <span>المتجر وكيل معتمد لكبرا الشركات العالميه</span>
+            <div class="img-container">
+                <img src="./images/lacoste.png" alt="lacoste">
+                <img src="./images/adidas.png" alt="adidas">
+                <img src="./images/puma.png" alt="puma">
+                <img src="./images/polo.png" alt="polo">
+            </div>
+        </div>
+        <div id="footer-nav" class="col-12 text-center">
+            <div class="footer-logo">
+                <a href="./">
+                  <img src="./images/logo_footer.png" alt="عربي">
+                </a>
+            </div>
+            <div class="col-12 d-none d-md-block" id="footer-nav-link">
+                <a href=".">الصفحه الرئيسيه</a>
+                <a href="search.html">البحث المتقدم</a>
+                <a href="contact.html">تواصل معنا</a>
+            </div>
+            <div class="col-md-6  offset-md-3" id="newsletter">
+                <form>
+                    <label for="footet-email">
+                        تابع النشره البريديه لاحدث العروظ
+                    </label>
+                    <br>
+                    <div class="input-group">
+                        <input type="email" placeholder="البريد الالكتروني" name="email" required
+                        class="form-control custom-form-control">
+                    <button type="submit" class="btn custom-btn custom-btn-primary2">
+                        متابعة
+                    </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="footer-copyright-social" class="col-12">
+            <div class="container">
+                <div class="clearfix">
+                <div id="copyright" class="float-right">
+                     
+                </div>
+                <div id="social-icons" class="float-left">
+                    <a href="#">
+                        <i class="fab fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-twitter-square fa-lg"></i>
+                  </a>
+                  <a href="#">
+                      <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--نهاية التذييل-->
+    </div>
+</body>
+</html>

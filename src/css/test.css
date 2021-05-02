@@ -1,0 +1,107 @@
+.custom-table {
+  width: 100%;
+}
+.custom-table th, .custom-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  font-size: 120%;
+}
+.custom-table th:first-child, .custom-table td:first-child {
+  width: 50%;
+}
+.custom-table .custom-media img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ebebeb;
+  margin-left: 10px;
+}
+.custom-table .custom-media h4 {
+  font-size: 18px;
+  margin: 12px 0;
+}
+.custom-table .quantity {
+  width: 56px;
+  height: 34px !important;
+  padding: 0 8px;
+  margin: auto;
+}
+.custom-table th {
+  color: #c2c2c2;
+  font-weight: normal;
+}
+.custom-table .custom-media {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.custom-table th:first-child {
+  padding-right: 20px;
+}
+.custom-table tfoot td {
+  border-bottom: none;
+  font-size: 150%;
+}
+.custom-table .total-price * {
+  color: #000;
+}
+.custom-table .total-price .custom-text-muted .custom-text-muted {
+  color: #a9a9a9;
+}
+
+.custom-form-control,
+.custom-btn {
+  border: 1px solid #eef0ea;
+  box-shadow: none;
+  border-radius: 2px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  padding: 6px 16px 7px 14px;
+  color: #868686;
+}
+
+.custom-navbar .container .custom-form-control:focus {
+  border-color: #c2101e;
+  box-shadow: 0 0 2px 0 #c2101e;
+}
+
+.custom-btn:hover {
+  background-color: #d4d4d4;
+  color: #f8ad47;
+  border: 1px solid #8c8c8c;
+}
+
+.custom-btn-primary2 {
+  color: #000;
+  background-color: #f8ad47;
+  border-color: #f8ad47;
+}
+.custom-btn-primary2:hover, .custom-btn-primary2:active, .custom-btn-primary2:focus, .custom-btn-primary2:active:focus, .custom-btn-primary2:active:hover {
+  background-color: #f8ad47;
+  border-color: #f8ad47;
+  color: #000;
+}
+
+.custom-btn-primary {
+  color: #f8ad47;
+  border-color: #f8ad47;
+  background-color: transparent;
+}
+.custom-btn-primary:hover, .custom-btn-primary:active, .custom-btn-primary:focus, .custom-btn-primary:active:focus, .custom-btn-primary:active:hover {
+  color: #b86d07;
+  background-color: transparent;
+  border-color: #b86d07;
+}
+
+.custom-btn-danger {
+  color: #ff5a5f;
+  border-color: #ff5a5f;
+  background-color: transparent;
+}
+.custom-btn-danger:hover, .custom-btn-danger:active, .custom-btn-danger:focus, .custom-btn-danger:active:focus, .custom-btn-danger:active:hover {
+  color: #da0007;
+  background-color: transparent;
+  border-color: #da0007;
+}
+
+/*# sourceMappingURL=test.css.map */
